@@ -3,8 +3,8 @@ PLUS: Si no son un número, que vuelva a pedirlos*/
 let n1, n2;
 
 do {
-  n1 = prompt("Ingrese un número: ");
-  n2 = prompt("Ingrese otro número: ");
+  n1 = prompt("Ingrese un número: ", 0);
+  n2 = prompt("Ingrese otro número: ", 0);
 
   if (isNaN(n1) || isNaN(n2)) alert("Debe ingresar solamente números");
 

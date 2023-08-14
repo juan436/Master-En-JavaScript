@@ -1,8 +1,8 @@
 /*Pedir dos números e indique el número mayor, el número menor o si son iguales.*/
 
 
-let n1 = prompt("Ingrese un número: ");
-let n2 = prompt("Ingrese otro número: ");
+let n1 = prompt("Ingrese un número: ", 0);
+let n2 = prompt("Ingrese otro número: ", 0);
 
 if(isNaN(n1) || isNaN(n2)){
 

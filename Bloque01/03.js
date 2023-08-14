@@ -9,7 +9,7 @@ let n;
 do{
 
     do{
-        n = prompt("Ingrese un número (Si ingresa el número negativo, el ciclo terminará): ");
+        n = prompt("Ingrese un número (Si ingresa el número negativo, el ciclo terminará: )", 0);
         if(isNaN(n)){
             alert("Debe ingresar solamente números");
         }
